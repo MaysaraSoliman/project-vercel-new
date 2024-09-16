@@ -1,0 +1,77 @@
+#footer .ant-typography {
+    margin-bottom: 0;
+}
+
+#footer .ant-col-sm-12,
+#footer .ant-col-sm-24 {
+    margin-bottom: 10px;
+}
+
+#footer .logo {
+    width: 100px;
+    display: flex;
+}
+
+#footer .logo a {
+    display: flex;
+}
+
+#footer .logo img {
+    width: 100%;
+}
+
+#footer .social_links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer .social_links a {
+    display: flex;
+}
+
+#footer .social_links a img {
+    width: 20px
+}
+
+#footer .getInTouch_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#footer .ant-collapse {
+    background-color: transparent;
+    border: none;
+}
+
+#footer .ant-collapse-header {
+    padding: 8px 0 !important;
+}
+
+#footer .ant-collapse-header-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#footer .ant-collapse-item {
+    border-bottom: none;
+}
+
+#footer .ant-input {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+#footer .ant-btn-primary {
+    background-color: #F76B6A !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}

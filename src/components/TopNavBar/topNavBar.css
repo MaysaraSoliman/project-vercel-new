@@ -1,0 +1,53 @@
+.top_navBar {
+    padding: 16px 0;
+}
+
+.top_navBar .social_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top_navBar .social_links a {
+    display: flex;
+}
+
+.top_navBar .social_links a img {
+    width: 20px
+}
+
+.top_navBar .logo {
+    width: 100px;
+    display: flex;
+}
+
+.top_navBar .logo a {
+    display: flex;
+}
+
+.top_navBar .logo img {
+    width: 100%;
+}
+
+.top_navBar .actions_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top_navBar .actions_icons button {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.top_navBar .actions_icons img {
+    width: 20px;
+}
+
+
+.shopping_cart {
+    z-index: 10000 !important;
+}

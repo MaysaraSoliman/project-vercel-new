@@ -1,0 +1,36 @@
+#saleBanner {
+    background: no-repeat center url(/src/assets/sale25banner/saleBanner.jpg);
+}
+
+#saleBanner .info {
+    padding: 7% 0 7% 30px;
+}
+
+#saleBanner .info h3 {
+    color: var(--fst_color);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#saleBanner .info h4 {
+    margin: 10px 0;
+    color: var(--thr-color);
+    font-size: 16px;
+}
+
+#saleBanner .ant-typography.ant-typography-danger {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+@media(max-width: 500px) {
+    #saleBanner .info h3 {
+        font-size: 22px;
+    }
+
+    #saleBanner .ant-typography.ant-typography-danger {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,33 @@
+#shipping {
+    margin: 40px 0;
+}
+
+#shipping .shipping_container .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#shipping .shipping_container .col .icon_image img {
+    width: 35px;
+}
+
+#shipping .shipping_container .col .info {
+    flex: 1;
+    text-align: center;
+}
+
+#shipping .shipping_container .col .info h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--fst_color);
+}
+
+#shipping .shipping_container .col .info h4 {
+    font-size: 14px;
+    color: var(--thr-color);
+    margin: 0;
+}

@@ -1,0 +1,41 @@
+#trendyItems {
+    padding: 20px 0;
+}
+
+#trendyItems h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#trendyItems .tab_categories .ant-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    margin: 25px 0;
+}
+
+#trendyItems .trendy_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#trendyItems .trendy_container .productCard_container {
+    width: calc((100% / 4) - 45px);
+}
+
+#trendyItems .pagination {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 776px) {
+    #trendyItems .trendy_container .productCard_container {
+        width: calc((100% / 2) - 15px);
+    }
+}

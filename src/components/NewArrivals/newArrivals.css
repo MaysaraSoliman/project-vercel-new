@@ -1,0 +1,36 @@
+#new_arrivals {
+    padding: 20px 0;
+}
+
+#new_arrivals h1 {
+    text-align: center;
+    margin: 0 auto 35px;
+}
+
+#new_arrivals .product_card_slider_container {
+    /* margin: 0 15px; */
+    padding: 0 7.5px;
+}
+
+#new_arrivals .slick-prev {
+    left: 30px;
+    z-index: 999;
+}
+
+#new_arrivals .slick-next {
+    right: 30px;
+}
+
+#new_arrivals .slick-next::before,
+#new_arrivals .slick-prev::before {
+    font-size: 35px;
+    color: #806b6b;
+}
+
+#new_arrivals .slick-dots {
+    bottom: 20px;
+}
+
+#new_arrivals .slick-dots li button:before {
+    color: black !important;
+}

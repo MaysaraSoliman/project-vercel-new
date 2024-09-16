@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+:root {
+  --fst_color: #333333;
+  --sec_color: #666666;
+  --thr-color: #999999;
+  --btn-bg-color: #f76b6a;
+  --btn-border-color: #f76b6a;
+  --green-btn-bg-color: #79b530;
+  --green-btn-border-bg-color: #79b530;
+  --active_color: #f76b6a;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.componentsSpaces {
+  padding: 60px 0;
+}
+
+.ant-layout {
+  background-color: #fff !important;
+}
+
+.ant-layout-header {
+  background-color: white;
+  border-bottom: 1px solid #d2d2d2;
+  height: auto;
+  padding: 0;
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected {
+  color: var(--active_color);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after {
+  border-bottom-color: var(--btn-border-color);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after {
+  border-bottom-color: var(--btn-border-color);
+}
+
+.slick-dots li button:before {
+  color: transparent !important;
+}
+
+.input_number .ant-input-number-group .ant-input-number-group-addon {
+  padding: 0;
+}
+
+.input_number .inc_dec_btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_number .inc_dec_btns .anticon {
+  padding: 1px 10px;
+  color: #928a8a;
+}
+
+.input_number .inc_dec_btns .anticon.anticon-plus {
+  border-bottom: 1px solid #eae0e0;
+}

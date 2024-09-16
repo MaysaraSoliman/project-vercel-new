@@ -1,0 +1,11 @@
+.bottom_navBar ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.bottom_navBar li a {
+    display: block;
+}

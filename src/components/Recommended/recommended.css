@@ -1,0 +1,9 @@
+#recommended {
+    padding: 20px 0;
+}
+
+
+#recommended .recommended_container .title {
+    text-align: center;
+    margin: 0 auto 35px;
+}

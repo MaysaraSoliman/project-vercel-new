@@ -1,0 +1,72 @@
+.drawer .image img {
+    width: 100%;
+}
+
+.drawer .info h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+.drawer .info h5 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+.drawer .info .rate {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.drawer .info .rate h5 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.drawer .info .describtion h5 {
+    font-size: 16px;
+    color: var(--sec_color);
+}
+
+.drawer .info .button {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.drawer .info .button button {
+    background-color: var(--btn-bg-color) !important;
+    border: var(--btn-border-color) !important;
+    color: white !important;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    min-height: 40px;
+    font-size: 12px;
+}
+
+.drawer .info .button button.buy_it_now {
+    background-color: var(--green-btn-bg-color) !important;
+    border: var(--green-btn-bg-color) !important;
+}
+
+.drawer .info .addToCart_btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.drawer .info .addToCart_btns .cartNumber_input {
+    min-width: 80px;
+}
+
+@media (max-width: 320px) {
+    .drawer .info .addToCart_btns {
+        flex-wrap: wrap;
+    }
+}

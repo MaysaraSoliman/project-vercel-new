@@ -1,0 +1,44 @@
+#freshOutfits {
+    background: no-repeat center url(/src/assets/freshOutfits/banner.jpg);
+    background-size: cover;
+}
+
+#freshOutfits .info {
+    padding: 15% 0 15% 30px;
+}
+
+#freshOutfits .info h3 {
+    color: var(--fst_color);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#freshOutfits .info h4 {
+    margin: 10px 0;
+    color: var(--thr-color);
+    font-size: 16px;
+}
+
+#freshOutfits .info .button {
+    margin-top: 25px;
+}
+
+#freshOutfits .info .button button {
+    background-color: var(--btn-bg-color) !important;
+    border: var(--btn-border-color) !important;
+    color: white !important;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    min-height: 40px;
+    font-size: 12px;
+}
+
+@media(max-width: 500px) {
+    #freshOutfits .info h3 {
+        font-size: 22px;
+    }
+}
